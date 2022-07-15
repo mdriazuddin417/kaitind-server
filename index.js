@@ -194,3 +194,5 @@ app.get("/", async (req, res) => {
 app.listen(port, () => {
   console.log("Example Port Check", port);
 });
+
+module.exports = app;
